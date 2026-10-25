@@ -4,6 +4,7 @@ const projects = [
     number: "01",
     category: "CARDIOVASCULAR AI",
     title: "CardioSense",
+    githubUrl: "https://github.com/KashanAsdaq500/CardioSense",
     description:
       "An ECG image analysis platform exploring deep learning, cardiac pattern classification, and AI-assisted clinical explanations.",
     tags: ["ResNet-18", "ONNX", "FastAPI", "RAG"],
@@ -13,6 +14,7 @@ const projects = [
     number: "02",
     category: "MEDICAL INTELLIGENCE",
     title: "Medical Report Intelligence",
+    githubUrl: "https://github.com/KashanAsdaq500/Medical-Report-Intelligence",
     description:
       "An AI-powered platform combining medical report analysis, prediction APIs, clinical guideline retrieval, and analysis history.",
     tags: ["Next.js", "FastAPI", "RAG", "Database"],
@@ -21,6 +23,7 @@ const projects = [
     number: "03",
     category: "MEDICAL COMPUTER VISION",
     title: "Skin Cancer Detection AI",
+    githubUrl: "https://github.com/KashanAsdaq500/skin-cancer-detection-ai",
     description:
       "A medical image classification project exploring skin lesion categories through a Streamlit interface and a CNN-based workflow.",
     tags: ["CNN", "TensorFlow / Keras", "Python", "Streamlit"],
@@ -29,6 +32,7 @@ const projects = [
     number: "04",
     category: "EXPLAINABLE AI",
     title: "Diabetes Clinical Decision Support",
+    githubUrl: "https://github.com/KashanAsdaq500/Explainable-Diabetes-CDSS",
     description:
       "A research-oriented project investigating diabetes risk prediction, model comparisons, and explainability for clinical decision support.",
     tags: ["Python", "XGBoost", "SHAP", "Machine Learning"],
@@ -37,6 +41,7 @@ const projects = [
     number: "05",
     category: "PREDICTIVE HEALTHCARE",
     title: "Heart Disease Prediction",
+    githubUrl: "https://github.com/KashanAsdaq500/heart-disease-prediction-ml",
     description:
       "A supervised machine learning project using classification models to estimate cardiovascular risk from input health features.",
     tags: ["Logistic Regression", "Random Forest", "Scikit-learn"],
@@ -45,6 +50,7 @@ const projects = [
     number: "06",
     category: "HEALTHCARE AUTOMATION",
     title: "HealthMate",
+    githubUrl: "https://github.com/KashanAsdaq500",
     description:
       "A healthcare website assistant concept combining conversational interactions, workflow automation, and structured information capture.",
     tags: ["n8n", "Chatbot", "Google Sheets", "Automation"],
@@ -308,6 +314,15 @@ export default function Home() {
                   </span>
                 ))}
               </div>
+
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[#1769AA] transition hover:gap-3"
+              >
+                View Project on GitHub <ArrowIcon />
+              </a>
             </article>
           ))}
         </div>
