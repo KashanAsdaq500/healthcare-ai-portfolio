@@ -138,7 +138,7 @@ export default function Home() {
           <div>
             <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-[#DCEAF5] bg-white px-4 py-2 text-xs font-medium tracking-wide text-[#1769AA]">
               <span className="h-2 w-2 rounded-full bg-[#2B8A78]" />
-              SOFTWARE ENGINEERING Â· HEALTHCARE AI
+              SOFTWARE ENGINEERING· HEALTHCARE AI
             </div>
             <h1 className="max-w-3xl text-5xl font-medium leading-[1.08] tracking-[-0.055em] sm:text-6xl lg:text-7xl">
               Building intelligent solutions for <span className="font-serif italic text-[#1769AA]">better healthcare.</span>
@@ -268,9 +268,9 @@ export default function Home() {
 
       <footer className="border-t border-[#E2ECF5] bg-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-7 text-xs text-[#64748B] sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-12">
-          <p>Â© 2026 Kashan Asdaq</p>
-          <p>Healthcare AI Â· Machine Learning Â· Research</p>
-          <a href="#home" className="font-medium transition hover:text-[#1769AA]">Back to top â†‘</a>
+          <p>© 2026 Kashan Asdaq</p>
+          <p>Healthcare AI· Machine Learning· Research</p>
+          <a href="#home" className="font-medium transition hover:text-[#1769AA]">Back to top ↑</a>
         </div>
       </footer>
     </main>
