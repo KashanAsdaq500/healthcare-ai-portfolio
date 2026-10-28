@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kashan Asdaq — Healthcare AI Portfolio
 
-## Getting Started
+A responsive personal portfolio built with Next.js App Router, React, and Tailwind CSS.
 
-First, run the development server:
+## Local development
+
+Requirements: Node.js compatible with the versions declared in `package.json` and npm.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Quality checks
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run lint
+npm run build
+```
 
-## Learn More
+## Deploying
 
-To learn more about Next.js, take a look at the following resources:
+The project is configured as a standard Next.js application and can be deployed to Vercel by importing the repository or connecting it to the existing Vercel project. Keep the framework preset as **Next.js** and use the default build command.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Before publishing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Confirm each repository link and project status.
+- Add a real CV file only when you have a final version you want to make public.
+- Add a contact email only if you want it publicly listed.
+- Verify any model, dataset, metric, and demo claims against the implementation and evaluation protocol.
+- Medical projects shown here are prototypes/research projects and are not clinical diagnostic tools.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The portfolio deliberately avoids claiming clinical validation or adding unverified accuracy numbers.
