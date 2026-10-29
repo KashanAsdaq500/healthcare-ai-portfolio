@@ -7,7 +7,7 @@
     githubUrl: "https://github.com/KashanAsdaq500/CardioSense",
     description:
       "An ECG image-analysis prototype exploring cardiac-pattern classification, an API-backed workflow, and retrieval of medical guidance to support explanations.",
-    focus: "Image classification Â· API integration Â· guideline retrieval",
+    focus: "Image classification· API integration· guideline retrieval",
     tags: ["ResNet-18", "ONNX", "FastAPI", "RAG"],
     featured: true,
   },
@@ -19,7 +19,7 @@
     githubUrl: "https://github.com/KashanAsdaq500/Medical-Report-Intelligence",
     description:
       "A full-stack healthcare prototype connecting report analysis, prediction endpoints, medical-guideline retrieval, and analysis history.",
-    focus: "Full-stack integration Â· model API Â· RAG",
+    focus: "Full-stack integration· model API· RAG",
     tags: ["Next.js", "FastAPI", "RAG", "Database"],
   },
   {
@@ -30,7 +30,7 @@
     githubUrl: "https://github.com/KashanAsdaq500/skin-cancer-detection-ai",
     description:
       "A skin-lesion image-classification project with a Streamlit interface and CNN-oriented workflow. Prediction behavior and model integration need verification before results are presented as model outputs.",
-    focus: "Image classification Â· model validation Â· responsible AI",
+    focus: "Image classification· model validation· responsible AI",
     tags: ["CNN", "TensorFlow / Keras", "Python", "Streamlit"],
   },
   {
@@ -41,7 +41,7 @@
     githubUrl: "https://github.com/KashanAsdaq500/Explainable-Diabetes-CDSS",
     description:
       "A research-oriented exploration of diabetes-risk modelling, comparison of machine-learning approaches, and feature-level explanations for decision-support research.",
-    focus: "Model comparison Â· explainability Â· evaluation",
+    focus: "Model comparison· explainability· evaluation",
     tags: ["Python", "XGBoost", "SHAP", "Machine Learning"],
   },
   {
@@ -52,7 +52,7 @@
     githubUrl: "https://github.com/KashanAsdaq500/heart-disease-prediction-ml",
     description:
       "A supervised-learning project comparing classification approaches to estimate cardiovascular risk from structured health features.",
-    focus: "Tabular data Â· classification Â· evaluation",
+    focus: "Tabular data· classification· evaluation",
     tags: ["Logistic Regression", "Random Forest", "Scikit-learn"],
   },
   {
@@ -63,7 +63,7 @@
     githubUrl: "https://github.com/KashanAsdaq500",
     description:
       "A healthcare website-assistant concept exploring conversational interactions, workflow automation, and structured information capture.",
-    focus: "Chatbot experience Â· workflow automation",
+    focus: "Chatbot experience · workflow automation",
     tags: ["n8n", "Chatbot", "Google Sheets", "Automation"],
   },
 ];
@@ -87,7 +87,7 @@ const experience = [
   {
     role: "AI Intern",
     organization: "Internee.pk Â· Remote",
-    period: "Feb â€“ Apr 2026",
+    period: "Feb 2026 - Apr 2026",
     description:
       "Built practical experience with AI-focused tasks and project workflows in a remote internship setting.",
   },
@@ -138,11 +138,17 @@ export default function Home() {
           <div>
             <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-[#DCEAF5] bg-white px-4 py-2 text-xs font-medium tracking-wide text-[#1769AA]">
               <span className="h-2 w-2 rounded-full bg-[#2B8A78]" />
-              SOFTWARE ENGINEERING· HEALTHCARE AI
+              SOFTWARE ENGINEER · AI/ML DEVELOPER
             </div>
             <h1 className="max-w-3xl text-5xl font-medium leading-[1.08] tracking-[-0.055em] sm:text-6xl lg:text-7xl">
-              Building intelligent solutions for <span className="font-serif italic text-[#1769AA]">better healthcare.</span>
-            </h1>
+  Building Intelligent Solutions for{" "}
+  <span className="font-serif italic text-[#1769AA]">
+    Healthcare.
+  </span>
+</h1>
+<p className="mt-5 text-sm font-medium tracking-wide text-[#1769AA] sm:text-base">
+  Machine Learning · Healthcare AI · Full-Stack Development
+</p>
             <p className="mt-7 max-w-xl text-base leading-8 text-[#526579] sm:text-lg">
               I&apos;m Kashan Asdaq, a Software Engineering graduate interested in applying machine learning and modern software development to meaningful healthcare problems.
             </p>
@@ -154,7 +160,9 @@ export default function Home() {
               <a href="https://github.com/KashanAsdaq500" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-[#DCEAF5] bg-white px-6 py-3.5 text-sm font-medium transition hover:border-[#1769AA] hover:text-[#1769AA]">GitHub profile <ExternalIcon /></a>
             </div>
             <div className="mt-10 flex flex-wrap gap-x-6 gap-y-3 border-t border-[#DCEAF5] pt-5 text-[10px] font-medium tracking-[0.13em] text-[#64748B] sm:text-xs">
-              <span>MEDICAL MACHINE LEARNING</span><span>DEEP LEARNING</span><span>RESPONSIBLE AI</span>
+              <span>MEDICAL MACHINE LEARNING</span>
+              <span>DEEP LEARNING</span>
+              <span>RESPONSIBLE AI</span>
             </div>
           </div>
           <div className="relative mx-auto w-full max-w-md">
